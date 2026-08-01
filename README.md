@@ -1,1 +1,165 @@
-# fredrikmunthe.github.io
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fredrik Munthe</title>
+  <meta name="Fredrik Munthe | Official Website
+" content="A short description of your site, for search engines and social previews.">
+
+  <style>
+    :root {
+      --color-bg: #ffffff;
+      --color-text: #1a1a1a;
+      --color-muted: #6b6b6b;
+      --color-accent: #2563eb;
+      --color-border: #e5e5e5;
+      --max-width: 720px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: var(--color-text);
+      background: var(--color-bg);
+      line-height: 1.6;
+    }
+
+    header, main, footer {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 2rem 1.5rem;
+    }
+
+    header {
+      padding-top: 4rem;
+      padding-bottom: 1rem;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin: 0 0 0.5rem;
+    }
+
+    .tagline {
+      color: var(--color-muted);
+      font-size: 1.1rem;
+      margin: 0;
+    }
+
+    nav {
+      margin-top: 1.5rem;
+      display: flex;
+      gap: 1.5rem;
+      border-bottom: 1px solid var(--color-border);
+      padding-bottom: 1rem;
+    }
+
+    nav a {
+      color: var(--color-text);
+      text-decoration: none;
+      font-size: 0.95rem;
+    }
+
+    nav a:hover {
+      color: var(--color-accent);
+    }
+
+    section {
+      margin: 2.5rem 0;
+    }
+
+    h2 {
+      font-size: 1.4rem;
+      margin-bottom: 0.75rem;
+    }
+
+    p {
+      margin: 0 0 1rem;
+    }
+
+    a {
+      color: var(--color-accent);
+    }
+
+    .button {
+      display: inline-block;
+      padding: 0.6rem 1.2rem;
+      background: var(--color-accent);
+      color: #fff;
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 0.95rem;
+    }
+
+    .button:hover {
+      opacity: 0.9;
+    }
+
+    footer {
+      border-top: 1px solid var(--color-border);
+      color: var(--color-muted);
+      font-size: 0.9rem;
+      padding-top: 1.5rem;
+      padding-bottom: 3rem;
+    }
+
+    @media (max-width: 480px) {
+      header {
+        padding-top: 2.5rem;
+      }
+      h1 {
+        font-size: 1.6rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Fredrik Munthe</h1>
+    <p class="tagline">Official Website</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        Founder of KLASH.
+      </p>
+    </section>
+
+    <section id="work">
+      <h2>Work</h2>
+      <p>
+      KLASH is an asset review and collaboration platform for the screen industries.
+      </p>
+      <p>
+        <a href="#">KLASH &rarr;</a><br>
+        <a href="#">LinkedIn &rarr;</a>
+      </p>
+    </section>
+
+    <section id="contact">
+      <h2>Get in touch</h2>
+      <p>
+        <a href="mailto:fredrik@fredrikmunthe.com" class="button">Email me</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2026 Fredrik Munthe AB.
+  </footer>
+
+</body>
+</html>
