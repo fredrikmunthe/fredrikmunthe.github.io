@@ -158,7 +158,7 @@
   </main>
 
   <footer>
-    &copy; 2026 Fredrik Munthe AB.
+    &copy; 2026 Fredrik Munthe AB
   </footer>
 
 </body>
